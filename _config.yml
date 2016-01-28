@@ -1,28 +1,40 @@
-name: attraversiamo
-favicon: null
-layout_spectrum: 0.952092110645026
-typography_spectrum: 0.527196949115023
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.5177066
+  brandStrength: 0.01431935979053378
+  lightness: 0.5143339
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.014319359790533781
-  lightness: 0.7776146561373025
-  saturation: 0.9083915257360786
-  rhythmicContrast: 0.1993013012688607
-purpose: []
+  rhythmicContrast: 0.5151771
+typography_spectrum: 0
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.1871838
+favicon: null
+name: attraversiamo
